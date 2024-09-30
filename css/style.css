@@ -1,0 +1,28 @@
+*, *::before, *::after  {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+a{
+	color: currentColor;
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+:root{
+    --button-color: #0061FF;
+    --max: 100%;
+    --base: 1208px;
+}
