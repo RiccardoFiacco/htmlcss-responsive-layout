@@ -1,72 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
 
-*, *::before, *::after  {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1{
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
+h1 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-a{
-	color: currentColor;
-	text-decoration: none;
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
-ul,ol {
-	list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
-:root{
-    --button-color: #0061FF;
-    --max: 100%;
-    --base: 1208px;
+:root {
+  --button-color: #0061ff;
+  --max: 100%;
+  --base: 1208px;
 }
 
 /*container rules*/
 
-.container{
-    width: var(--max);
+.container {
+  width: var(--max);
 }
 
 /*flex rules*/
 
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
 
 /*padding rules*/
-.paddingl-25{
-    padding-left: 25px;
+
+.paddingl-25 {
+  padding-left: 25px;
 }
-.paddingt-25{
-    padding-top: 25px;
+.paddingt-25 {
+  padding-top: 25px;
 }
-.paddingb-25{
-    padding-bottom: 25px;
+.paddingb-25 {
+  padding-bottom: 25px;
 }
+
 /*color rules*/
-.color-FF9614{
-    color: #FF9614;
+
+.color-FF9614 {
+  color: #ff9614;
 }
+
 /*font rules*/
-.fonth-50{
-    font-size: 50px;
+
+.fonth-50 {
+  font-size: 50px;
 }
 
 /*debug rules*/
-.debug{
-    border: 1px dashed black;
+
+.debug {
+  border: 1px dashed black;
 }
