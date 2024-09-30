@@ -64,6 +64,9 @@ img {
 .justify-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
 /*col layout*/
 
 .col-70 {
@@ -74,9 +77,9 @@ img {
 }
 
 /*padding rules*/
-.paddingr-25 {
-    padding-right: 25px;
-  }
+.paddingr-10 {
+    padding-right: 10px;
+}
 .paddingl-25 {
   padding-left: 25px;
 }
@@ -122,6 +125,9 @@ img {
 .paddingb-15{
     padding-bottom: 15px;
 }
+.paddingt-50{
+    padding-top: 50px;
+}
 /*color rules*/
 
 .color-orange {
@@ -140,7 +146,6 @@ img {
   background-color: white;
 }
 /*font rules*/
-
 .fonts-50 {
   font-size: 50px;
 }
@@ -150,9 +155,15 @@ img {
 .text-uppercase {
   text-transform: uppercase;
 }
+.lineh-32{
+    line-height: 32px;
+}
 /*display rules*/
 .display-block {
   display: block;
+}
+.float-left{
+    float: left;
 }
 /*radius rules and shadow rules*/
 .border-radius-999{
@@ -164,6 +175,9 @@ img {
 /*width rules*/
 .w-100 {
   width: 100%;
+}
+.w-25 {
+    width: 25%;
 }
 /*debug rules*/
 

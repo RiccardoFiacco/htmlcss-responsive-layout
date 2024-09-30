@@ -12,10 +12,16 @@
         flex-direction: row;
     }
     .col-33{
-        width: calc(100%/3);
+        width: calc(100% / 3);
     }
     .remove-word{
         display: none;
+    }
+    .paddingl-50{
+        padding-left: 50px;
+    }
+    .paddingr-50{ 
+        padding-right: 50px;
     }
 }
 
@@ -37,5 +43,8 @@
    }
    .padding-10{
         padding:10px;
+   }
+   .float-none{
+    float: none;
    }
 }
