@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap");
 *,
 *::before,
 *::after {
@@ -9,7 +9,7 @@
 }
 
 html {
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -43,6 +43,15 @@ img {
 .container {
   width: var(--max);
 }
+.container-base {
+  width: var(--base);
+}
+
+/*margin rules*/
+
+.margin-auto {
+  margin: 0 auto;
+}
 
 /*flex rules*/
 
@@ -61,11 +70,31 @@ img {
 .paddingb-25 {
   padding-bottom: 25px;
 }
-
+.paddingt-65 {
+  padding-top: 65px;
+}
+.paddingr-65 {
+  padding-left: 65px;
+}
+.paddingl-65 {
+  padding-right: 65px;
+}
+.paddingb-20 {
+    padding-bottom: 20px;
+  }
 /*color rules*/
 
 .color-FF9614 {
   color: #ff9614;
+}
+.bgcolor-F6F5F3 {
+  background-color: #f6f5f3;
+}
+.color-4E3969 {
+  color: #4e3969;
+}
+.color-999999 {
+  color: #999999;
 }
 
 /*font rules*/
@@ -73,7 +102,12 @@ img {
 .fonth-50 {
   font-size: 50px;
 }
-
+.fonth-15 {
+  font-size: 15px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
 /*debug rules*/
 
 .debug {
