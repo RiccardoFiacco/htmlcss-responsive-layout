@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 *, *::before, *::after  {
 	box-sizing: border-box;
 	margin: 0;
@@ -6,6 +8,12 @@
 
 html {
 	font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a{
@@ -25,4 +33,40 @@ img {
     --button-color: #0061FF;
     --max: 100%;
     --base: 1208px;
+}
+
+/*container rules*/
+
+.container{
+    width: var(--max);
+}
+
+/*flex rules*/
+
+.row{
+    display: flex;
+}
+
+/*padding rules*/
+.paddingl-25{
+    padding-left: 25px;
+}
+.paddingt-25{
+    padding-top: 25px;
+}
+.paddingb-25{
+    padding-bottom: 25px;
+}
+/*color rules*/
+.color-FF9614{
+    color: #FF9614;
+}
+/*font rules*/
+.fonth-50{
+    font-size: 50px;
+}
+
+/*debug rules*/
+.debug{
+    border: 1px dashed black;
 }
