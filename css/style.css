@@ -59,6 +59,15 @@ img {
   display: flex;
 }
 
+/*col layout*/
+
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+
 /*padding rules*/
 
 .paddingl-25 {
@@ -81,7 +90,13 @@ img {
 }
 .paddingb-20 {
     padding-bottom: 20px;
-  }
+}
+.paddingb-45 {
+    padding-bottom: 45px;
+}
+.paddingt-40 {
+    padding-top: 40px;
+}
 /*color rules*/
 
 .color-FF9614 {
@@ -97,16 +112,28 @@ img {
   color: #999999;
 }
 
+.bgcolor-white{
+    background-color: white;
+}
 /*font rules*/
 
-.fonth-50 {
+.fonts-50 {
   font-size: 50px;
 }
-.fonth-15 {
-  font-size: 15px;
+.fonts-12 {
+  font-size: 12px;
 }
 .text-uppercase {
   text-transform: uppercase;
+}
+/*display rules*/
+.display-block{
+    display: block;
+}
+
+/*width rules*/
+.w-100{
+    width: 100%;
 }
 /*debug rules*/
 
