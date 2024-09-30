@@ -43,9 +43,9 @@ img {
 .container {
   width: var(--max);
 }
-.container-base {
+/* .container-base {
   width: var(--base);
-}
+} */
 
 /*margin rules*/
 
@@ -57,6 +57,12 @@ img {
 
 .row {
   display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.row-gap-25{
+    row-gap: 25px;
 }
 
 /*col layout*/
