@@ -61,6 +61,9 @@ img {
 .row-gap-25 {
   row-gap: 25px;
 }
+.column-gap-10 {
+    column-gap: 10px;
+}
 .justify-between{
     justify-content: space-between;
 }
@@ -143,7 +146,13 @@ img {
   color: #999999;
 }
 .bgcolor-white {
-  background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+.color-white {
+  color: white;
+}
+.bgcolor-purple {
+    background-color: #4e3969;
 }
 /*font rules*/
 .fonts-50 {
