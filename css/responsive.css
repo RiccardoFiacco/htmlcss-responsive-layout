@@ -47,4 +47,7 @@
    .float-none{
     float: none;
    }
+   .w-70{
+    width: 70%;
+   }
 }
